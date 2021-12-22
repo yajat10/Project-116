@@ -1,0 +1,16 @@
+#button:hover{
+    background-color: green;
+}
+#header{
+    font-size: 20px;
+}
+canvas{
+    border: 3px dashed orchid;
+    animation-name: canvas;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes canvas{
+    from{box-shadow: 3px 3px 30px blue}
+    to{box-shadow: 3px 3px 30px green  }
+}
